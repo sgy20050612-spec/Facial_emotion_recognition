@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+data/
+runs/
+*.zip
+realtime_output/
+models/
+*.onnx
+*.pt
+*.part
+*.log
+papers/*.pdf
+.env
+.env.*
+!.env.example
+repository_export/
