@@ -49,3 +49,7 @@ py -3.12 -m venv D:\fer_experiments\venv
 模型来自 [EmotiEffLib](https://github.com/sb-ai-lab/EmotiEffLib)，检测器来自 [OpenCV Zoo / YuNet](https://github.com/opencv/opencv_zoo/tree/main/models/face_detection_yunet)。请遵守上游模型、代码和数据适用条款。本仓库暂未指定统一开源许可证。
 
 本次只保存实时识别核心文件。模型权重、数据集、虚拟环境和用户视频不上传。应用本地处理，不录制或上传摄像头画面；错误日志保存在被 Git 忽略的 `realtime_output` 中。
+
+## 工作流与基线实验总结
+
+详见 [工作流与基线对比实验](docs/WORKFLOW_AND_BASELINES.md)：实时识别流程、五组基线与权重下限消融、数据审计、统一训练配置、评估指标及结果状态。基线训练尚未完成，文档没有虚构精度；训练命令针对本地完整项目，当前仓库不包含 `ferlab`。
